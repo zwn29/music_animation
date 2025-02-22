@@ -8,8 +8,8 @@
   /*justify-content: flex-start;*/
   /*justify-content: center;*/
   /*align-items: center;
-    /*align-items: flex-end;
-    align-items: flex-start;*/
+      /*align-items: flex-end;
+      align-items: flex-start;*/
   justify-content: center;
   animation: example 1s infinite alternate ease-out forwards;
   animation-delay: 1s;
@@ -31,6 +31,7 @@
   }
   50% {
     align-items: center;
+    background-color: blue;
   }
   100% {
     align-items: flex-end;
@@ -45,7 +46,7 @@
 
 @keyframes colorchange {
   0% {
-    background-color: aqua;
+    background-color: green;
   }
   50% {
     background-color: yellow;
